@@ -55,7 +55,7 @@ InterVar homepage: <http://wInterVar.wglab.org>
 """
 
 
-line_sum=0;
+line_sum = 0;
 
 if platform.python_version()< '3.0.0' :
     import ConfigParser
@@ -115,7 +115,7 @@ knownGeneCanonical_st_dict={}
 knownGeneCanonical_ed_dict={}
 
 def flip_ACGT(acgt):
-    nt="";
+    nt = ""
     if acgt=="A":
         nt="T"
     if acgt=="T":
